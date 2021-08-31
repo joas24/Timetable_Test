@@ -1,0 +1,87 @@
+table{
+    width:70%;
+    height:300px;
+    margin:0 auto;
+}
+td{
+    text-align: center;
+}
+a{
+    text-decoration:none;
+    color:rgb(153, 97, 13);
+    display:block;
+}
+#baro img{
+    width: 50px;
+    margin: 10px;
+    margin-left: 20px;
+    box-shadow: 3px 3px 10px black;
+    text-align: center;
+}
+#baro img:hover{
+    width: 70px;
+}
+#yesool:hover{
+    width: 300px;
+}
+.yoil{
+    margin: 5px;
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.yoil:hover{
+    background-color: rgb(230, 230, 230);
+}
+.yoil:active{
+    background-color:gray;
+}
+#all{
+    display:grid;
+    grid-template-columns: 5% 1fr;
+}
+#j{
+    color:powderblue;
+    border:none;
+    background-color:powderblue;
+}
+#shs{
+    width:50%;
+}
+body{
+    background-color:powderblue;
+}
+*::selection{
+    background-color:rgb(9, 255, 0);
+}
+#shs{
+    width:30%;
+    margin: 0 auto;
+}
+#jayool + #jun{
+    display:none;
+}
+#jayool:active + #jun{
+    display:block;
+}
+.yel::selection{
+    color:yellow;
+    text-shadow: 2px 2px 5px yellow;
+    background-color:powderblue;
+}
+.blu::selection{
+    color:blue;
+    text-shadow: 2px 2px 5px blue;
+    background-color:powderblue;
+}
+.red::selection{
+    color:red;
+    text-shadow: 2px 2px 5px red;
+    background-color:powderblue;
+}
+h1{
+    text-align:center;
+}
+
+
+
